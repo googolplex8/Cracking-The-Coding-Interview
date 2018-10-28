@@ -29,7 +29,7 @@ public class Problem_06_Test {
 	 */
 	@Test
 	public void testCompressStringWithValidValue() {
-		Assert.assertEquals(Problem_06.compressString("aabcccccaaa"), "a2b1c5a3");
+		Assert.assertEquals("a2b1c5a3", Problem_06.compressString("aabcccccaaa"));
 	}
 
 	/**
